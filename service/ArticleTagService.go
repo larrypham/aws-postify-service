@@ -1,7 +1,7 @@
 package service
 
 import (
-	"aws-postify-service/model"
+	" github.com/larrypham/aws-postify-service/model"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"

@@ -1,7 +1,7 @@
 package util
 
 import (
-	"aws-postify-service/model"
+	" github.com/larrypham/aws-postify-service/model"
 	"encoding/json"
 	"github.com/aws/aws-lambda-go/events"
 )

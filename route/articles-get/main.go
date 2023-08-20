@@ -1,11 +1,11 @@
 package main
 
 import (
-	"aws-postify-service/model"
-	"aws-postify-service/service"
-	"aws-postify-service/util"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
+	"github.com/larrypham/aws-postify-service/model"
+	"github.com/larrypham/aws-postify-service/service"
+	"github.com/larrypham/aws-postify-service/util"
 	"strconv"
 	"time"
 )
