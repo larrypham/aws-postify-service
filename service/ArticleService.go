@@ -1,7 +1,6 @@
 package service
 
 import (
-	" github.com/larrypham/aws-postify-service/util"
 	"errors"
 	"fmt"
 	"github.com/aws/aws-sdk-go/aws"
@@ -9,6 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
 	"github.com/aws/aws-sdk-go/service/dynamodb/expression"
 	"github.com/larrypham/aws-postify-service/model"
+	"github.com/larrypham/aws-postify-service/util"
 )
 
 func PutArticle(article *model.Article) error {

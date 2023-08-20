@@ -1,9 +1,9 @@
 package util
 
 import (
-	" github.com/larrypham/aws-postify-service/model"
 	"encoding/json"
 	"github.com/aws/aws-lambda-go/events"
+	"github.com/larrypham/aws-postify-service/model"
 )
 
 type InputErrorResponse struct {
